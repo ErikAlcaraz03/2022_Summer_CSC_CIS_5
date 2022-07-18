@@ -1,0 +1,96 @@
+/* 
+ * File:   CPPTemplate
+ * Author: Erik Alcaraz
+ * Created on June 22, 2022, 2:32 PM
+ * Purpose: C++ Template - To be used in all future Assignments
+ */
+
+//System Libraries
+#include <iostream>  //Input-Output Library
+using namespace std;
+
+//User Defined Libraries
+
+//Global Constants, not Global Variables
+//These are recognized constants from the sciences
+//Physics/Chemistry/Engineering and Conversions between
+//systems of units!
+
+//Function Prototypes
+
+//Execution begins here!
+#include <iostream>
+
+using namespace std;
+
+int main(int argc,char** argv)
+{
+    bool x,y;
+    cout<<"X Y !X !Y X&&Y X||Y X^Y X^Y^X X^Y^Y !X&&!Y  "<<"!(X||Y) !X||!Y !(x&&Y)"<<endl;
+    x=y=true;
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"   ";
+    cout<<(x&&y?'T':'F')<<"   ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<(x^y^x?'T':'F')<<"    ";
+    cout<<(x^y^y?'T':'F')<<"     ";
+    cout<<(!x&&!y?'T':'F')<<"        ";
+    cout<<(!(x||y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"        ";
+    cout<<(!(x&&y)?'T':'F')<<"    ";
+    cout<<endl;
+    
+    y=false;
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"   ";
+    cout<<(x&&y?'T':'F')<<"   ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<(x^y^x?'T':'F')<<"    ";
+    cout<<(x^y^y?'T':'F')<<"     ";
+    cout<<(!x&&!y?'T':'F')<<"        ";
+    cout<<(!(x||y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"        ";
+    cout<<(!(x&&y)?'T':'F')<<"    ";
+    cout<<endl;
+
+    x=false;
+    y=true;
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"   ";
+    cout<<(x&&y?'T':'F')<<"   ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<(x^y^x?'T':'F')<<"    ";
+    cout<<(x^y^y?'T':'F')<<"     ";
+    cout<<(!x&&!y?'T':'F')<<"        ";
+    cout<<(!(x||y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"        ";
+    cout<<(!(x&&y)?'T':'F')<<"    ";
+    cout<<endl;
+    
+    x=y=false;
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"   ";
+    cout<<(x&&y?'T':'F')<<"   ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<(x^y^x?'T':'F')<<"    ";
+    cout<<(x^y^y?'T':'F')<<"     ";
+    cout<<(!x&&!y?'T':'F')<<"        ";
+    cout<<(!(x||y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"        ";
+    cout<<(!(x&&y)?'T':'F')<<"    ";
+    cout<<endl;
+    return 0;
+}       
+;
